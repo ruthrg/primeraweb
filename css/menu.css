@@ -1,39 +1,39 @@
 
-nav{
+nav {
     background-color: black;
     color: white;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
-.menu li{
+.menu li {
     width: 10%;
     list-style: none;
 }
 
-.menu a{
-    /*color: white;*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    ;
+.menu a {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
 
-.logo{
+.logo {
     flex-grow: 3;
 }
 
-.logo img{
+.logo img {
     width: 20%;
     height: auto;
 }
 
-.menu a:hover{
+
+.menu a:hover {
     background-color: white;
     border: 5px white solid;
     border-radius: 3px;
-    color:black;
-
+    color: black;
 }
+
